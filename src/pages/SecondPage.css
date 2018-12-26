@@ -1,0 +1,125 @@
+@font-face {
+    font-family: SaolText;
+    src: url(../fonts/Saol-Text-Semibold.ttf);
+}
+
+@font-face {
+    font-family: SimplonMono;
+    src: url(../fonts/simplonmono-light.ttf);
+}
+
+.div-container {
+    margin: auto;
+    width: 375px;
+    height: 696px;    
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: linear-gradient(65deg, rgb(36, 71, 67), rgb(27, 44, 50));
+    height: 180px;
+    width: 375px;
+    text-align: center; 
+    box-shadow: 0 10px 10px -6px lightgrey;
+    z-index: 1;
+}
+
+.p-header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.help-img {
+    margin-bottom: -80px;
+    border-radius: 50px;
+}
+
+#help-img:hover {
+    opacity: 0.7;
+    transition: 0.3s ease-in;
+}
+
+section {
+    display: grid;
+    grid-template-rows: repeat(5, calc(100% / 6));
+    text-align: center;
+    height: 443px;
+    width: 375px;
+    background-color:  #f2f2f2;
+}
+
+ .hair-list {
+    color: #5b5648;
+    border-bottom: 0.5px solid #e6e6e6;
+    background-color: #f2f2f2;
+    outline-style: none;
+}
+
+.hair-list:hover,
+.hair-list:focus {
+    color: #5b5648;
+    border-bottom: 0.5px solid #e6e6e6;
+    background-color: white; 
+    box-shadow: 0 10px 10px -6px lightgrey; 
+    z-index: 1;
+}
+
+button {
+     border: transparent;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.arrow {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.page-number {
+    color: grey;
+    font-family: SimplonMono;
+    margin: auto;
+    padding-top: 25px;
+    text-align: left;
+    padding-left: 80px;
+}
+
+.footer {
+    background-color: hsl(0, 0%, 98%);
+    height: 73px;
+    width: 375px;
+    box-shadow: 0 -5px 10px -5px lightgrey;
+    z-index: 2;
+    text-align: center;
+}
+
+
+#continue-link {    
+    display: inline-block;
+}
+
+.continue-btn {
+    height: 73px;
+    width: 375px;
+    background-color: white;
+    color: orange;
+    outline-style: none;
+}
+
+.continue-btn:disabled {
+    height: 73px;
+    width: 375px;
+    background-color: white;
+    color: orange;
+    outline-style: none;
+    opacity: 0.3;
+}
+
+
+
+

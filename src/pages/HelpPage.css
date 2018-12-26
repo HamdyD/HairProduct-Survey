@@ -1,0 +1,39 @@
+@font-face {
+    font-family: SaolText;
+    src: url(../fonts/Saol-Text-Semibold.ttf);
+}
+
+@font-face {
+    font-family: SimplonMono;
+    src: url(../fonts/simplonmono-light.ttf);
+}
+
+.content {
+    margin: auto;
+    width: 375px;
+    height: 667px;    
+    border: 1px solid lightgrey;
+    background-image: url(https://a.icons8.com/psbinefV/MaGoZ5/image-bkg.png);
+}
+
+h1 {
+    font-family: SaolText;
+    font-size: 28px;
+    margin: 200px 25px 0px;
+}
+
+p {
+    font-family: SimplonMono;
+    font-size: 13px;
+    margin: 45px 25px 0px;
+    text-align: center;
+}
+
+#got-it {
+    margin: 200px auto 0px;
+    border-bottom: 1px solid white;
+    width: 150px;
+    padding-bottom: 5px;
+
+}
+
