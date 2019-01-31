@@ -12,6 +12,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+## The app
+
+
 ### First page
 
 ![hair-app-1](https://user-images.githubusercontent.com/44287876/50576553-7c5b3e00-0e14-11e9-81ed-317c86dd1ad3.jpg)
